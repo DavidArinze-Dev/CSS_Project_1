@@ -5,61 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David HTML Project 1</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/html_workshop/Images/Favicon.png" />
-    <style>
-        footer {
-            text-align: center;  /* Footer alligned at the center*/
-            padding: 3px;
-            background-color: DarkSalmon;
-            color: white;
-        }
-
-        header {
-            text-align: center;
-            padding: 3px;
-            background-color: DarkSalmon;
-            color: white;
-           
-        }
-    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<!-- Header -->
-<body>
-    <header>
-        <nav>
-            <ul>
-                <a href="./home.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./work.html">Work</a>
-                <a href="https://www.myperfectresume.com/build-resume?skin=MLM8&theme=%239b3016&templateflow=selectresume" target="_blank">Resume</a>
-                <a href="./contact.html">Contact</a>
-            </ul>
 
-        </nav>
-    </header>
+
+<!-- Header with the Menu-->
+<header class="robotoFont">
+    <nav>
+        <div class="logo">
+            <a href="./home.html">
+                <img src="./Images/DAVID-Neon-Logo.png" alt="">
+            </a>
+        </div>
+        <ul>
+            <a href="./home.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./work.html">Work</a>
+            <a href="https://www.myperfectresume.com/build-resume?skin=MLM8&theme=%239b3016&templateflow=selectresume"
+                target="_blank">Resumé</a>
+            <a href="./contact.html">Contact</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="button"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </ul>
+
+    </nav>
+</header>
 
 <!-- About Section -->
-    <section>
-        <h4>This is my ABOUT page</h4>
-        <ol>
-            <li><b>Name:</b> David Arinze</li>
-            <li><b>Academic Background:</b> Available on request</li>
-            <li><b>History:</b> Available on request</li>
-        </ol>
-        <p>Click
-            <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" target="_blank">here</a>
-            for the Story of my Life
-        </p>
+<section style=" text-align:center;">
+    <h4 class="robotoFont" style="font-size:30px;">This is my <span style="color: red;">ABOUT</span> page</h4>
+    <ol>
+        <li><b>Name:</b> David Arinze</li>
+        <li><b>Academic Background:</b> Available on request</li>
+        <li><b>History:</b> Available on request</li>
+    </ol>
+    <p>Click
+        <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" target="_blank">here</a>
+        for the Story of my Life
+    </p>
+    <hr>
+</section>
 
-    </section>
+<section>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Sed libero enim sed faucibus turpis. Consequat id porta nibh venenatis cras sed. Ipsum
+        a arcu cursus vitae congue mauris rhoncus aenean. Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+        Sit amet consectetur adipiscing elit pellentesque. Commodo nulla facilisi nullam vehicula ipsum. Enim
+        blandit volutpat maecenas volutpat blandit aliquam. In ante metus dictum at tempor commodo. Risus commodo
+        viverra maecenas accumsan. Elit ullamcorper dignissim cras tincidunt. Vitae ultricies leo integer malesuada
+        nunc vel risus commodo. Sit amet risus nullam eget felis.</p>
 
-    <!-- Footer -->
-    <footer>
-        <p>Author: David Arinze<br>
-            <a href="mailto:hege@example.com">david.nwankwo99@gmail.com</a>
-        </p>
-    </footer>
+
+    <p>
+        Sed faucibus turpis in eu mi bibendum. Sed tempus urna et pharetra. Magnis dis parturient montes nascetur
+        ridiculus mus mauris. Arcu non odio euismod lacinia at. Purus sit amet luctus venenatis lectus. Quis risus
+        sed vulputate odio. Commodo odio aenean sed adipiscing diam donec. Malesuada fames ac turpis egestas
+        maecenas. Turpis in eu mi bibendum neque egestas congue quisque egestas. Lorem mollis aliquam ut porttitor
+        leo a diam. Condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim
+        convallis. Feugiat vivamus at augue eget arcu dictum. Enim ut sem viverra aliquet eget sit amet.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Sed libero enim sed faucibus turpis. Consequat id porta nibh venenatis cras sed. Ipsum
+        a arcu cursus vitae congue mauris rhoncus aenean. Nec feugiat nisl pretium fusce id velit ut tortor pretium.
+        Sit amet consectetur adipiscing elit pellentesque. Commodo nulla facilisi nullam vehicula ipsum. Enim
+        blandit volutpat maecenas volutpat blandit aliquam. In ante metus dictum at tempor commodo.</p>
+
+
+    <p>
+        Sed faucibus turpis in eu mi bibendum. Sed tempus urna et pharetra. Magnis dis parturient montes nascetur
+        ridiculus mus mauris. Arcu non odio euismod lacinia at. Purus sit amet luctus venenatis lectus. Quis risus
+        sed vulputate odio. Commodo odio aenean sed adipiscing diam donec. Malesuada fames ac turpis egestas
+        maecenas. Turpis in eu mi bibendum neque egestas congue quisque egestas. Lorem mollis aliquam ut porttitor
+        leo a diam. Condimentum mattis pellentesque id nibh tortor. Curabitur gravida arcu ac tortor dignissim
+        convallis. Feugiat vivamus at augue eget arcu dictum. Enim ut sem viverra aliquet eget sit amet.
+    </p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>Author: David Arinze<br>
+        <a href="mailto:hege@example.com">david.nwankwo99@gmail.com</a>
+    </p>
+</footer>
 </body>
 
 </html>

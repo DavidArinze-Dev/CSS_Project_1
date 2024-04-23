@@ -5,35 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David HTML Project 1</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/html_workshop/Images/Favicon.png" />
-    <style>
-        footer {
-            text-align: center;  /* Footer alligned at the center*/
-            padding: 3px;
-            background-color: DarkSalmon;
-            color: white;
-        }
-
-        header {
-            text-align: center;
-            padding: 3px;
-            background-color: DarkSalmon;
-            color: white;
-        }
-    </style>
+    <link rel="shortcut icon" type="image/x-icon" href="./Images/Favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Header with external link in Resume menu-->
-    <header>
+    <header class="robotoFont">
         <nav>
+            <div class="logo">
+                <a href="./home.html">
+                    <img src="./Images/DAVID-Neon-Logo.png" alt="">
+                </a>
+            </div>
             <ul>
                 <a href="./home.html">Home</a>
                 <a href="./about.html">About</a>
                 <a href="./work.html">Work</a>
-                <a href="https://www.myperfectresume.com/build-resume?skin=MLM8&theme=%239b3016&templateflow=selectresume" target="_blank">Resume</a>
+                <a href="https://www.myperfectresume.com/build-resume?skin=MLM8&theme=%239b3016&templateflow=selectresume"
+                    target="_blank">Resumé</a>
                 <a href="./contact.html">Contact</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="button"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
             </ul>
-          
+
         </nav>
     </header>
 
@@ -45,4 +45,5 @@
         </p>
     </footer>
 </body>
+
 </html>

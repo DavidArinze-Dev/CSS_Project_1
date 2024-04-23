@@ -1,0 +1,178 @@
+.robotoFont {
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    background-size: cover;
+    color: white;
+}
+
+span {
+    color: red;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ol li {
+    display: block;
+}
+
+li {
+    display: inline;
+
+}
+
+ul a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+
+}
+
+ul a:hover:not(.active) {
+    background-color: DarkSalmon;
+}
+
+nav img {
+    height: 75px;
+    width: 90px;
+}
+
+nav img:hover {
+    height: 78px;
+    width: 93px;
+}
+
+.logo {
+    float: left;
+}
+
+
+section img {
+    float: right;
+
+}
+
+article iframe {
+    float: left;
+
+}
+
+table {
+    margin: 30px 0px;
+}
+
+#menu {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu td,
+#menu th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#menu tr:nth-child(even) {
+    background-color: #b0a2a2;
+}
+
+#menu tr:hover {
+    background-color: #e0b247;
+}
+
+#menu th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #d8790d;
+    color: white;
+}
+
+.submit {
+    background-color: rgb(147, 235, 167);
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding: 7px 15px;
+}
+
+.submit:hover {
+    background-color: rgb(18, 230, 67);
+    color: white;
+    font-weight: bold;
+}
+
+.reset {
+    background-color: rgb(225, 94, 105);
+    border-radius: 8px;
+
+    padding: 7px 15px;
+}
+
+.reset:hover {
+    background-color: rgb(230, 60, 18);
+    color: white;
+    font-weight: bold;
+}
+
+.search-container {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 18px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.search-container button:hover {
+    background: darksalmon;
+}
+
+
+.contactForm {
+    background-color: rgba(235, 224, 224, 0.381);
+    width: 30%;
+    padding: 0px 20px;
+    padding-bottom: 25px;
+}
+
+.contactHeading {
+    padding-top: 40px;
+
+}
+
+.contactPage {
+    background-image: url('./Images/eiliv-aceron-mwbjyRUTlIQ-unsplash.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(245, 162, 89, 0.953);
+    background-blend-mode: multiply;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 10px;
+}
